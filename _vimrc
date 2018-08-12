@@ -103,3 +103,9 @@ set expandtab
 
 set relativenumber
 
+if has('gui_running')
+  set guifont=M+_1m:h11:cSHIFTJIS:qDRAFT
+endif
+
+colorscheme jellybeans
+
