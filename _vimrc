@@ -102,6 +102,7 @@ set shiftwidth=4
 set expandtab
 
 set relativenumber
+set number
 
 if has('gui_running')
   set guifont=M+_1m:h11:cSHIFTJIS:qDRAFT
