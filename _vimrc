@@ -1,3 +1,5 @@
+" Author: Alan Chen
+" Alan's vimrc, based on Tim Pope's sensible.vim
 " sensible.vim - Defaults everyone can agree on
 " Maintainer:   Tim Pope <http://tpo.pe/>
 " Version:      1.2
@@ -105,8 +107,10 @@ set relativenumber
 set number
 
 if has('gui_running')
-  set guifont=M+_1m:h11:cSHIFTJIS:qDRAFT
+    set guioptions-=T  "remove toolbar
+    set guifont=M+_1m:h11:cSHIFTJIS:qDRAFT
 endif
 
 colorscheme jellybeans
 
+inoremap jj <Esc>
